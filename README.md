@@ -6,7 +6,9 @@
 ## 개발 환경 구축
 ### Chocolatey 설치
 - cmd창을 관리자 권한으로 실행 후 다음 명령어를 입력
+```sh
 - @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
 
 ### meteor 설치
 - cmd창을 관리자 권한으로 실행 후 다음 명령어를 입력(Chocolatey설치 후 cmd창 재시작 필요)
