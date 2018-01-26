@@ -7,37 +7,55 @@
 ### Chocolatey 설치
 - cmd창을 관리자 권한으로 실행 후 다음 명령어를 입력
 ```sh
-- @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
 ### meteor 설치
 - cmd창을 관리자 권한으로 실행 후 다음 명령어를 입력(Chocolatey설치 후 cmd창 재시작 필요)
-- choco install meteor
+```sh
+choco install meteor
+```
 
 ### meteor 프로젝트 생성
 - 프로젝트를 생성하고 하는 경로로 이동 후 cmd창 실행(Shift+우클릭 -> Open Powershell Window Here) 뒤 다음 명령어 입력. 이 때 프로젝트명은 자신이 생성하고자 하는 프로젝트의 이름
-- meteor create <프로젝트명>
+```sh
+meteor create <프로젝트명>
+```
 - github에서 pull받은 client, public, server 폴더를 <프로젝트명> 프로젝트 안으로 복사 덮어쓰기
 
 
 ### meteor 패키지 설치
 - <프로젝트명> 프로젝트 안에서 cmd창 실행 후 아래 명령어를 입력하여 의존 패키지 설치
 #### 부트스트랩 4 패키지
-- meteor add alexwine:bootstrap-4
+```sh
+meteor add alexwine:bootstrap-4
+```
 #### flow-router 패키지
-- meteor add kadira:flow-router
+```sh
+meteor add kadira:flow-router
+```
 #### blaze-layout 패키지
-- meteor add kadira:blaze-layout
+```sh
+meteor add kadira:blaze-layout
+```
 #### 계정관리 패키지
-- meteor add accounts-password
+```sh
+meteor add accounts-password
+```
 #### 팝업 패키지
-- meteor add themeteorchef:bert
+```sh
+meteor add themeteorchef:bert
+```
 #### 암호화 패키지
-- meteor npm install --save bcrypt
+```sh
+meteor npm install --save bcrypt
+```
 
 ### meteor 실행 및 확인
 - <프로젝트명> 프로젝트 안에서 cmd창 실행 후 아래 명령어를 입력
-- meteor
+```sh
+meteor
+```
 - 잠시 기다린 뒤 실행이 성공적으로 완료되면 크롬에서 localhost:3000 로 이동하여 결과 확인
 
 ## 디렉터리 및 파일 구조
