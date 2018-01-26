@@ -1,0 +1,226 @@
+.login-container{
+    width: 1520px;
+    height: auto;
+}
+
+.login-title{
+    margin : 70px 0 28px 34px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.login-panel{
+    width: 1520px;
+    height: auto;
+    min-width: 540px;
+    background: white;
+    border: 2px solid #eee;
+}
+
+.login-header{
+    width: 1100px;
+    height: 400px;
+    padding: 24px;
+}
+
+.login-img{
+    height: 315px;
+    width: 350px;
+    margin-right: 25px;
+}
+
+.login-desc{
+  width: 600px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 24px;
+  color: #525252;
+  margin-left: 50px;
+}
+
+.login-body{
+    width: 80%;
+    min-width: 540px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.login-body-content{
+    width: auto;
+    min-width: 540px;
+    height: 200px;
+}
+
+.padding-0{
+    padding : 0 !important;
+}
+
+.login-input-container{
+    width:580px;
+    height: auto;
+}
+
+.login-input-container > div > p{
+    width: 132px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    display: inline-block;
+}
+
+.login-input-container > div {
+    padding: 8px;
+}
+
+.login-input-container > div > input{
+    width: 400px;
+    height: 50px;
+    padding: 4px 0 0 18px;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+}
+
+.login-input-container > div > input:focus{
+    border: 2px solid #f47d1c;
+}
+
+.login-btn{
+    background-color: #fa8c32;
+    width: 170px;
+    height: 130px;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    color: white;
+}
+
+.login-btn:active{
+    background-color: #d26810;
+}
+
+.login-footer-container{
+    width:800px;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 111px;
+}
+
+.login-footer-container > div > p{
+    width: 464px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    display: inline-block;
+}
+
+.login-footer-container > div:first-child{
+    margin-bottom: 20px;
+}
+
+.login-footer-container > div > button{
+    width: 320px;
+    height: 60px;
+    background-color: #979797;
+    color: #FEFEFE;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+}
+
+.login-footer-container > div > button:active{
+    background-color: #636363;
+}
+
+.login-footer-sm{
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border-top: 2px solid #e6e6e6;
+  margin: 200px 0 0 0;
+}
+
+.login-footer-logo-1{
+    width: 121px;
+    height: 40px;
+    margin-right: 180px;
+}
+
+.login-footer-logo-2{
+    width: 173px;
+    height: 45px;
+    margin-right: 180px;
+}
+
+.login-footer-logo-3{
+    width: 133px;
+    height: 43px;
+    margin-right: 180px;
+}
+
+.login-footer-logo-4{
+    width: 224px;
+    height: 39px;
+}
+
+.login-footer-lg{
+  width: 100%;
+  height: 260px;
+  background-color: #d3d3d3;
+  border-top: 2px solid #c8c8c8;
+}
+
+.login-footer-lg > div{
+    width: 1520px;
+    height: auto;
+}
+
+.login-footer-lg-logo > img{
+    margin: 44px 130px 0 38px;
+    width: 121px;
+    height: 40px;
+}
+
+.login-footer-lg-desc{
+    width: 950px;
+    margin-top: 44px;
+}
+
+.login-footer-lg-desc > a{
+    text-decoration: none;
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 16px;
+}
+
+.login-footer-lg-desc > a:first-child{
+    padding-right: 14px;
+    border-right: 1px solid #7d7d7d;
+}
+
+.login-footer-lg-desc-a2{
+    padding-left: 14px;
+}
+
+.login-footer-lg-desc > p{
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 18px;
+}
+
+.login-footer-lg-desc-p1{
+    margin: 26px 0 0 0;
+}
+
+.login-footer-lg-desc-p4{
+    margin: 26px 0 0 0;
+}

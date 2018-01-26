@@ -1,0 +1,21 @@
+<template name="mainTopBar">
+    <div class="container-fluid row margin-0 justify-content-center topbar-border">
+        <div class="topbar-container row align-items-center margin-0">
+            <div class="col-3"><a href="/"><img src="images/index/logo.gif" alt="" class="topbar-img"></a></div>
+            <div class="topbar-desc col-9">
+                <div class="float-right">
+                    {{#if currentUser}}
+                        <a href="/learningStatus" class="topbar-register">마이 페이지</a>
+                        <a href="/classList" class="topbar-login">학습 페이지</a>
+                        <a href="/codeTest" class="topbar-login">샘플 코드</a>
+                        <a href="" class="topbar-findIdPw logout">로그아웃</a>
+                        {{else}}
+                        <a href="/register" class="topbar-register">회원가입</a>
+                        <a href="/login" class="topbar-login">로그인</a>
+                        <a href="/findID" class="topbar-findIdPw">아이디 · 비밀번호 찾기</a>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

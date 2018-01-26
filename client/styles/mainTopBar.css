@@ -1,0 +1,57 @@
+.topbar-border{
+    border-bottom: 2px solid #eee;
+}
+
+.topbar-container{
+  width: 100%;
+  max-width: 1520px;
+  height: 70px;
+}
+
+.topbar-border{
+  background-color: #f7f7f7;
+}
+
+.topbar-img{
+  height: 47px;
+  width: 144px;
+  margin: 0 50px 0 38px;
+}
+
+.topbar-desc{
+  height: auto;
+  width: auto;
+  max-width: 1234px;
+  font-family: "NanumSquareR";
+  font-size: 16px;
+}
+
+.topbar-desc > div > a{
+  color : black;
+}
+
+.topbar-register{
+  height: 18px;
+  width: 58px;
+  font-size: 14px;
+  font-family: "Dotum";
+  border-right: 1px solid black;
+  padding: 0 16px 0 16px;
+}
+
+.topbar-login{
+  height: 18px;
+  width: 42px;
+  font-size: 14px;
+  font-family: "Dotum";
+  border-right: 1px solid black;
+  padding: 0 16px 0 16px;
+}
+
+.topbar-findIdPw{
+  height: 18px;
+  width: auto;
+  font-size: 14px;
+  font-family: "Dotum";
+  padding: 0 16px 0 16px;
+}

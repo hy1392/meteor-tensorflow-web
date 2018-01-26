@@ -1,0 +1,111 @@
+<template name="register">
+    <div class="container-fluid row justify-content-center margin-0 padding-0">
+        <div class="register-container row margin-0">
+            <div class="register-title">
+                <p>회원가입</p><span>*표시가 있는 항목은 반드시 입력해주세요.</span>
+            </div>
+            <div class="register-panel row margin-0 justify-content-center">
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <div class="">
+                                <p class="">아이디</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="registerEmail" value="" class="">
+                                <button type="button" name="button" class="checkDuplicated-btn">중복검사</button>
+                                <p class="register-desc">이메일 형식으로 입력해주세요.</p>
+                            </div>
+                            <div class="">
+                                <p class="">비밀번호</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="registerPassword" value="" class="">
+                                <p class="register-desc">비밀번호는 영문자, 숫자 조합으로 8~15자리로 입력해주세요. 특수문자 가능</p>
+                            </div>
+                            <div class="">
+                                <p class="">비밀번호 확인</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="registerPasswordRepeat" value="" class="">
+                                <p class="register-desc">비밀번호를 다시 한번 입력해주세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <div class="">
+                                <p class="">이름</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="name" value="" class="">
+                            </div>
+                            <div class="row register-gender-container align-items-center">
+                                <p class="">성별</p>
+                                <span class="force-input">*</span>
+                                <input type="radio" name="gender" value="" id="c1" class="register-radio-1"><label for="c1">남성</label>
+                                <input type="radio" name="gender" value="" id="c2" class="register-radio-2"><label for="c2">여성</label>
+                            </div>
+                            <div class="">
+                                <p class="">생년월일</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="birth" value="" class="">
+                            </div>
+                            <div class="">
+                                <p class="">휴대전화번호</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="hp" value="" class=""><p class="register-desc">수신여부</p>
+                                <input type="radio" name="hp-ad" value="" id="c3" class="register-radio-2"><label for="c3">예</label>
+                                <input type="radio" name="hp-ad" value="" id="c4" class="register-radio-2"><label for="c4">아니오</label>
+                            </div>
+                            <p class="register-desc-2">※수신거부 설정시에도 학습관련 내용은 수신될 수 있습니다.</p>
+                            <div class="">
+                                <p class="">이메일</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="email1" value="" class="email-1">
+                                <p class="email-tag">@</p>
+                                <select class="email-2" name="">
+                                    <option value="">naver.con</option>
+                                    <option value="">google.con</option>
+                                    <option value="">hanmail.net</option>
+                                    <option value="">hotmail.com</option>
+                                    <option value="">koreatech.ac.kr</option>
+                                </select>
+                                <p class="register-desc">수신여부</p>
+                                <input type="radio" name="email-ad" value="" id="c5" class="register-radio-2"><label for="c5">예</label>
+                                <input type="radio" name="email-ad" value="" id="c6" class="register-radio-2"><label for="c6">아니오</label>
+                            </div>
+                            <p class="register-desc-3">※아이디나 비밀버호를 찾기위해 사용되오니 정확한 정보로 입력하시기 바랍니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <div class="">
+                                <p class="">관심분야 1순위</p>
+                                <select class="" name="interest-1">
+                                    <option value="">없음</option>
+                                    <option value="">없음</option>
+                                    <option value="">없음</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <p class="">관심분야 2순위</p>
+                                <select class="" name="interest-2">
+                                    <option value="">없음</option>
+                                    <option value="">없음</option>
+                                    <option value="">없음</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-btn-container">
+                        <input type="button" name="" value="회원가입" class="register-btn">
+                        <input type="button" name="" value="취소" class="cancle-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

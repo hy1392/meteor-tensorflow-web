@@ -1,0 +1,254 @@
+/*---------------배너----------------*/
+.index-img-container{
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  background: url("/images/index/main_bn_bg.png");
+  border-top: 2px solid #b8b8b8;
+  border-bottom: 2px solid #b8b8b8;
+}
+
+.index-img{
+  height: 500px;
+  width: 1520px;
+  background: url("/images/index/banner.png");
+}
+
+.index-img-content{
+  position: relative;
+  top:82px;
+  left:116px;
+  height: 166px;
+}
+
+.index-img-btn{
+  height: 90px;
+  width: 328px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 40px;
+  background-color: transparent;
+  border:none;
+  background-image: url(images/index/bt5_nom.png);
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.index-img-btn:hover{
+  background-image: url(images/index/bt5_over.png);
+}
+
+
+.index-img-btn:active{
+  background-image: url(images/index/bt5_on.png);
+}
+
+
+.index-img-content > p {
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 40px;
+  color : white;
+}
+
+.index-img-navigation{
+  position: relative;
+  top:24px;
+  left:50px;
+  height: 16px;
+}
+
+.index-img-navi-btn{
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  opacity: 0.6;
+  border:none;
+  border-radius: 50%;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/*---------------강의실----------------*/
+.margin-0{
+  margin: 0 !important;
+}
+
+.index-classroom-left{
+  height: 315px;
+  width: 710px;
+  margin: 20px 12px 0 0;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+}
+
+.index-classroom-right{
+  height: 315px;
+  width: 710px;
+  margin: 20px 0 0 12px;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+}
+
+.index-container{
+  height: auto;
+  width: 1520px;
+  padding: 0 38px 0 38px;
+}
+
+.index-course-title{
+  font-size: 32px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+  font-weight: bold;
+  margin: 56px 0 20px 0;
+}
+
+.index-classroom-content{
+  height: 238px;
+  width: 592px;
+  margin: 47px 64px 30px 52px;
+}
+
+.index-classroom-img{
+  height: 216px;
+  width: 186px;
+  margin-right: 62px;
+  display: inline-block;
+}
+
+.index-classroom-text{
+  height: auto;
+  width: 342px;
+  display: inline-block;
+}
+
+.index-classroom-btn{
+  height: 70px;
+  width: 200px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 24px;
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+}
+
+.index-btn{
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+}
+
+.index-btn:hover{
+  background-color: #bfd7e8;
+  border: 2px solid #b2cbdc;
+}
+
+.index-btn:active{
+  background-color: #619bc4;
+  border: 2px solid #5a90be;
+  color: #ffffff;
+}
+
+.index-classroom-title{
+  height: 36px;
+  font-size: 28px;
+  color: #4a4a4a;
+  font-family: "GyeonggiTitleVOTF_Bold";
+  src: url("/resources/fonts/GyeonggiTitleVOTF_Bold.ttf") format("truetype");
+  margin: 13px 0 18px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.index-classroom-desc{
+  height: 52px;
+  font-size: 18px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+  margin: 0 0 35px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2 ;
+}
+
+
+
+
+/*---------------코드 테스트----------------*/
+
+.code-test-container{
+  height: auto;
+  width: 1520px;
+  padding: 0 38px 0 38px;
+  margin-bottom: 180px;
+}
+
+.code-test-block{
+  background-color: white;
+  height: 310px;
+  width: 339px;
+  border: 2px solid #e8e8e8;
+  margin: 0 22px 24px 0 !important;
+}
+
+.code-test-header{
+  margin: 30px 0 18px 0;
+  width: auto;
+  height: 50px;
+}
+
+.code-test-desc{
+ width: 220px;
+ height: auto;
+}
+
+.code-test-desc > p{
+  height: auto;
+  font-size: 18px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf");
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3 ;
+}
+
+.code-test-title{
+  height: 50px;
+  font-size: 28px;
+  color: #4a4a4a;
+  font-family: "GyeonggiTitleVOTF_Bold";
+  src: url("/resources/fonts/GyeonggiTitleVOTF_Bold.ttf");
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.code-test-img{
+  height: 50px;
+  width: 50px;
+}
+
+.code-test-btn{
+  height: 70px;
+  width: 200px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf");
+  font-size: 24px;
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+  margin: 0 0 20px 0;
+}

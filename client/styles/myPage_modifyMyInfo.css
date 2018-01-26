@@ -1,0 +1,101 @@
+.modifyMyInfo-submenu{
+    width: 100%;
+    height: 100px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 70px;
+}
+
+.modifyMyInfo-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.modifyMyInfo-container > a:hover{
+    color:#FA8C32;
+}
+
+.modifyMyInfo-container{
+    width: 1520px;
+    height: auto;
+}
+
+.modifyMyInfo-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.modifyMyInfo-panel{
+    width: 1520px;
+    height: 850px;
+    background-color: white;
+    border: 2px solid #eee;
+    margin-bottom: 200px;
+}
+
+.modifyMyInfo-img{
+    margin-top: 188px;
+    margin-bottom: 38px;
+}
+
+.modifyMyInfo-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.modifyMyInfo-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #222222;
+    margin-right: 16px;
+    align-self: center;
+}
+
+.modifyMyInfo-form{
+    margin-top: 86px;
+}
+
+.modifyMyInfo-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.modifyMyInfo-btn{
+    background-color: #fa8c32;
+    width: 132px;
+    height: 50px;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.modifyMyInfo-btn:hover{
+    background-color: #fa9a4b;
+}
+
+.modifyMyInfo-btn:active{
+    background-color: #cc6510;
+}
+.modifyMyInfo-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+}

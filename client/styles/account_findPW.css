@@ -1,0 +1,203 @@
+.findPW-submenu{
+    width: 100%;
+    height: 100px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 70px;
+}
+
+.findPW-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.findPW-container > a:hover{
+    color:#FA8C32;
+}
+
+.findPW-container{
+    width: 1520px;
+    height: auto;
+}
+
+.findPW-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.findPW-panel{
+    width: 1520px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    margin-bottom: 200px;
+}
+
+.findPW-img-container{
+    width: 800px;
+    height: auto;
+    margin: 76px 0 26px 0;
+}
+
+.findPW-img-container > div{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.findPW-header-text-title{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.findPW-header-text-desc{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 16px;
+    color: #525252;
+}
+
+.findPW-img{
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.findPW-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.findPW-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #222222;
+    margin : 0;
+    width: 134px;
+    display: inline-block;
+}
+
+.findPW-date-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 18px;
+    color: #222222;
+    margin : 0 8px 0 8px;
+    display: inline-block;
+}
+
+.findPW-form{
+    width: 1360px;
+    height: auto;
+    margin-top: 40px;
+    padding: 40px 0 40px 0;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.findPW-row{
+    width: 574px;
+    padding: 20px 0 20px 0;
+}
+
+.findPW-row-date{
+    padding: 20px 0 20px 17px;
+}
+
+.findPW-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.findPW-email-1{
+    width: 184px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-email-2{
+    width: 208px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-year{
+    width: 138px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-month{
+    width: 92px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-day{
+    width: 92px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-hp-1{
+    width: 138px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-hp-2{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-btn-container{
+    width: 800px;
+    padding: 76px 0 76px 0;
+}
+
+.findPW-btn{
+    background-color: #fa8c32;
+    width: 300px;
+    height: 60px;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.findPW-btn:hover{
+    background-color: #fa9a4b;
+}
+
+.findPW-btn:active{
+    background-color: #cc6510;
+}
+.findPW-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  margin-top: 200px;
+}
