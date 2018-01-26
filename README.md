@@ -93,7 +93,34 @@ meteor
 ### 파일별 페이지 구성 내용
 | client - components - account | 구성요소 |
 | ------ | ------ |
-| findId.html | 사용자 계정 관련 페이지(로그인, 회원가입, 아이디 찾기, 비밀번호 찾기) |
-| findPW.html | 학습 관련 페이지(강좌 리스트, 학습하기) |
-| login.html | 내 정보 관련 페이지(학습현황, 강좌 관리, 개인정보 수정, 비밀번호 수정, 내 강좌) |
-| register.html | 코드 관련 페이지(코드테스트 페이지) |
+| findId.html | 아이디 찾기 페이지 |
+| findPW.html | 비밀번호 찾기 페이지 |
+| login.html | 로그인 페이지 |
+| register.html | 회원가입 페이지 |
+
+| client - components - learningPage | 구성요소 |
+| ------ | ------ |
+| classList.html | 강좌 리스트 페이지 |
+| learning.html | 학습진행 페이지 |
+
+| client - components - myPage | 구성요소 |
+| ------ | ------ |
+| learningStatus.html | 학습현황 페이지 |
+| modifyMyInfo.html | 개인정보수정 페이지 |
+| modifyPW.html | 비밀번호변경 페이지 |
+
+| client - components - sampleCodePage | 구성요소 |
+| ------ | ------ |
+| codeTest.html | 코드 테스트 페이지 |
+
+| client - components - 기타 파일 | 구성요소 |
+| ------ | ------ |
+| applicationLayout.html | blaze-layout의 root 페이지(모든 html template는 이 파일 안에 배치된다.) |
+| mainContent.html | index 페이지 |
+| mainFooter.html | 페이지 공통 footer 페이지 |
+| mainTopBar.html | 페이지 공통 navigation bar 페이지 |
+
+| lib | 구성요소 |
+| ------ | ------ |
+| account.js | 로그인 및 회원가입 기능 js파일 |
+| routes.js | 페이지 네비게이션 기능 js파일 |
